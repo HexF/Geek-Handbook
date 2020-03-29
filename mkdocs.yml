@@ -1,0 +1,57 @@
+site_name: HexF's Geek Handbook
+site_url: https://geek-handbook.hexf.me
+repo_url: https://github.com/HexF/Geek-Handbook
+
+repo_name: GitHub
+edit_uri: edit/master/manuals/
+
+site_description: The Geek Handbook is a collection of guides on building out your infrastructure for your homelab, or your startup.
+site_author: Thomas Hobson (HexF) and Contributers
+
+copyright: All Rights Reserved
+#google_analytics: [code, url]
+
+use_directory_urls: true
+
+nav:
+  - Home: index.md
+  - About Me: whoami.md
+
+docs_dir: manuals
+theme:
+  name: "material"
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - macros
+  - autolinks
+  - htmlproofer
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true
+  - toc:
+      permalink: true
+  - footnotes
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: funkypenguin
+      repo: geek-cookbook
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - meta
