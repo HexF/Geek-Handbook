@@ -58,3 +58,4 @@ nav:
   - Certificate Authority:
       - Start: ca/index.md
       - Setup: ca/setup.md
+      - Client Setup: ca/client.md
