@@ -1,7 +1,7 @@
 def define_env(env):
     @env.macro
-    def supportMe(manual):
+    def supportMe():
         return '\n'.join([
-            "!!! note",
-            "    Support me from as low as $5 a month and get the Ansible playbook for `%s` along with many other playbooks" % (manual)
+            "!!! note \"Too Lazy?\"",
+            "    Support me from as low as $5 a month and get the Ansible playbook for this manual among others, with a patron exclusive discord 😲"
         ])
