@@ -13,10 +13,6 @@ copyright: All Rights Reserved
 
 use_directory_urls: true
 
-nav:
-  - Home: index.md
-  - About Me: whoami.md
-
 docs_dir: manuals
 theme:
   name: "material"
@@ -55,3 +51,10 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - meta
+
+nav:
+  - Home: index.md
+  - About Me: whoami.md
+  - Certificate Authority:
+      - Start: ca/index.md
+      - Setup: ca/setup.md
